@@ -115,6 +115,14 @@
     width: 40%;
 }
 
+.big-content {
+
+    width: 100%;
+
+    /* debug */
+    background-color: #228B22;
+}
+
 .gray {
     background-color: #D3D3D3;
 }
