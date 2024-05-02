@@ -44,6 +44,7 @@
 /* navigazione centrale */
 .center {
     width: 40%;
+    justify-content: center;
 }
 
 #nav-item {
