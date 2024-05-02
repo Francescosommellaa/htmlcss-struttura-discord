@@ -71,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 6% 20%;
 
     /* debug */
     background-color: #00008B;
@@ -80,11 +81,40 @@
 }
 
 .contenuto-header {
-    margin: 12% 15%;
-
     /* debug */
     border: 2px dotted black;
     background-color: #EE82EE;
     width: 100%;
     height: auto;
+}
+
+/* section content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 6% 12%;
+
+    /* debug */
+    width: 100%;
+    height: 500px;
+}
+
+.db {
+    border: 2px dotted black;
+    height: 100%;
+}
+
+.big {
+    background-color: #1E90FF;
+    width: 60%;
+}
+
+.small {
+    background-color: #FFC0CB;
+    width: 40%;
+}
+
+.gray {
+    background-color: #D3D3D3;
 }
