@@ -137,3 +137,29 @@
 .bg-gray {
     background-color: #D3D3D3;
 }
+
+
+
+/* content footer top*/
+.big-footer-content {
+    height: 100%;
+    width: 40%;
+    background-color: #F08080;
+}
+
+.small-footer-content {
+    height: 100%;
+    width: 20%;
+    background-color: #20B2AA;
+    border: 2px dotted white;
+}
+
+.bg-black {
+    background-color: #23272A;
+}
+
+
+/* content footer bottom*/
+.container-footer {
+
+}
