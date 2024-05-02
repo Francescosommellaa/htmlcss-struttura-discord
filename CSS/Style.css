@@ -161,5 +161,20 @@
 
 /* content footer bottom*/
 .container-footer {
+    height: auto;
+    padding: 4% 12% 0;
+}
 
+#info-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 0;
+
+    /* debug */
+    background-color: #7FFFD4;
+}
+
+.decoration-button {
+    padding: 0.5em;
+    font-size: 16px;
 }
