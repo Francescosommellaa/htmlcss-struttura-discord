@@ -64,3 +64,27 @@
 #nav-item li {
     padding: 0.5em;
 }
+
+
+/* header */
+#container-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    /* debug */
+    background-color: #00008B;
+    width: 100%;
+    height: 500px;
+
+}
+
+.contenuto-header {
+    margin: 12% 15%;
+
+    /* debug */
+    border: 2px dotted black;
+    background-color: #EE82EE;
+    width: 100%;
+    height: auto;
+}
