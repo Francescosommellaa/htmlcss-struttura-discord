@@ -20,33 +20,25 @@
 
 
 /* colonne nav */
-
-/* debug */
 .column {
+    display: flex;
+    align-items: center;
+
+    /* debug */
     background-color: #DAA520;
     border: 2px dotted black;
 }
 
-/* navigazione laterale */
+/* navigazioni laterali */
 .left {
-    display: flex;
-    align-items: center;
     width: 20%;
     padding-left: 0.5em;
 }
 
 .right {
     width: 20%;
-    display: flex;
-    align-items: center;
     justify-content: end;
     padding-right: 0.5em;
-}
-
-.decoration-link {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
 }
 
 /* navigazione centrale */
@@ -67,6 +59,15 @@
 
 
 
+/* stile dei link */
+.decoration-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+
+
 /* header */
 #container-header {
     display: flex;
@@ -77,13 +78,13 @@
     /* debug */
     background-color: #00008B;
     width: 100%;
-    height: 500px;
+    height: auto;
 
 }
 
 .contenuto-header {
     width: 100%;
-    height: auto;
+    height: 400px;
 
     /* debug */
     border: 2px dotted black;
@@ -99,9 +100,7 @@
     align-content: center;
     padding: 6% 12%;
     width: 100%;
-
-    /* debug */
-    height: 500px;
+    height: auto;
 }
 
 /* debug */
@@ -111,7 +110,7 @@
 
 /* content */
 .big {
-    height: 100%;
+    height: 400px;
     width: 60%;
 
     /* debug */
@@ -119,7 +118,7 @@
 }
 
 .small {
-    height: 100%;
+    height: 400px;
     width: 40%;
 
     /* debug */
@@ -127,7 +126,7 @@
 }
 
 .big-content {
-    height: 100%;
+    height: 400px;
     width: 100%;
 
     /* debug */
@@ -142,13 +141,13 @@
 
 /* content footer top*/
 .big-footer-content {
-    height: 100%;
+    height: 400px;
     width: 40%;
     background-color: #F08080;
 }
 
 .small-footer-content {
-    height: 100%;
+    height: 400px;
     width: 20%;
     background-color: #20B2AA;
     border: 2px dotted white;
